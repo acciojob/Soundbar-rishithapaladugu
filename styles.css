@@ -1,12 +1,17 @@
 /*  your css code here. If applicable */
-#buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#buttons{
+	background-color:purple;
+	padding:50px;
+	display:flex;
+	justify-content:space-around;
 }
-
-.btn, .stop {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+.btn{
+	border:0px;
+}
+.stop{
+	border:0px;
+}
+button:hover {
+  background: #4b2073;
+  transform: scale(1.1);
 }
